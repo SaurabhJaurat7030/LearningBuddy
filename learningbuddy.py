@@ -7,8 +7,7 @@ import time
 st.title("🌨️ LearnBuddy")
 st.markdown("<p style='color:gray; font-style:italic;'>Ask questions and get instant answers on functional testing, business cases, and more!</p>", unsafe_allow_html=True)
 
-import streamlit as st
-import time
+
 
 with st.spinner("Thinking"):
     time.sleep(0.5)  # Simulate a process
